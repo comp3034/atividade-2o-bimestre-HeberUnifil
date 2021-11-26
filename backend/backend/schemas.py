@@ -42,3 +42,6 @@ class User(UserBase):
 
     class Config:
         orm_mode = True
+
+class UserEdit(UserBase):
+    birth_date: Optional[datetime]
