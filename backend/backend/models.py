@@ -2,7 +2,7 @@ from sqlalchemy import BigInteger, Boolean, Column, DateTime, ForeignKey, \
     Integer, String
 from sqlalchemy.orm import relationship
 
-from .database import Base
+from backend.database import Base
 
 
 class User(Base):
